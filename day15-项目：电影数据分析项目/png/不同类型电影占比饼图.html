@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>饼图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="b6e9f321eb3e4c5dbd9c911fb873c5fb" class="chart-container" style="width:800px; height:500px;"></div>
+    <script>
+        var chart_b6e9f321eb3e4c5dbd9c911fb873c5fb = echarts.init(
+            document.getElementById('b6e9f321eb3e4c5dbd9c911fb873c5fb'), 'dark', {renderer: 'canvas'});
+        var option_b6e9f321eb3e4c5dbd9c911fb873c5fb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Animation",
+                    "value": 234
+                },
+                {
+                    "name": "Mystery",
+                    "value": 348
+                },
+                {
+                    "name": "Fantasy",
+                    "value": 424
+                },
+                {
+                    "name": "Family",
+                    "value": 513
+                },
+                {
+                    "name": "Horror",
+                    "value": 519
+                },
+                {
+                    "name": "Science Fiction",
+                    "value": 535
+                },
+                {
+                    "name": "Crime",
+                    "value": 696
+                },
+                {
+                    "name": "other",
+                    "value": 760
+                },
+                {
+                    "name": "Adventure",
+                    "value": 790
+                },
+                {
+                    "name": "Romance",
+                    "value": 894
+                },
+                {
+                    "name": "Action",
+                    "value": 1154
+                },
+                {
+                    "name": "Thriller",
+                    "value": 1274
+                },
+                {
+                    "name": "Comedy",
+                    "value": 1722
+                },
+                {
+                    "name": "Drama",
+                    "value": 2297
+                }
+            ],
+            "radius": [
+                "30%",
+                "70%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Animation",
+                "Mystery",
+                "Fantasy",
+                "Family",
+                "Horror",
+                "Science Fiction",
+                "Crime",
+                "other",
+                "Adventure",
+                "Romance",
+                "Action",
+                "Thriller",
+                "Comedy",
+                "Drama"
+            ],
+            "selected": {},
+            "show": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u4e0d\u540c\u7c7b\u578b\u7535\u5f71\u5360\u6bd4\u997c\u56fe",
+            "left": "center",
+            "top": "2%"
+        }
+    ]
+};
+        chart_b6e9f321eb3e4c5dbd9c911fb873c5fb.setOption(option_b6e9f321eb3e4c5dbd9c911fb873c5fb);
+    </script>
+</body>
+</html>

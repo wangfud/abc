@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>柱状图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="dd3d9f1e74ef48f686197cee3d18bcc6" class="chart-container" style="width:800px; height:500px;"></div>
+    <script>
+        var chart_dd3d9f1e74ef48f686197cee3d18bcc6 = echarts.init(
+            document.getElementById('dd3d9f1e74ef48f686197cee3d18bcc6'), 'dark', {renderer: 'canvas'});
+        var option_dd3d9f1e74ef48f686197cee3d18bcc6 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "revenue",
+            "yAxisIndex": 0,
+            "data": [
+                805778.1590909091,
+                40382910.627878785,
+                67371062.41310251,
+                153455744.13219094,
+                247112786.51181102,
+                184272460.15625,
+                51496375.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "vote_average",
+            "yAxisIndex": 1,
+            "data": [
+                3.9318181818181825,
+                5.493818181818185,
+                6.078818737270874,
+                6.6609547123622965,
+                7.0716535433070895,
+                6.93125,
+                7.099999999999999
+            ],
+            "barCategoryGap": "40%",
+            "barGap": "0%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "revenue",
+                "vote_average"
+            ],
+            "selected": {
+                "revenue": true,
+                "vote_average": true
+            },
+            "show": true,
+            "left": "center",
+            "top": "7%"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "(-0.001, 60.0]",
+                "(60.0, 90.0]",
+                "(90.0, 120.0]",
+                "(120.0, 150.0]",
+                "(150.0, 180.0]",
+                "(180.0, 210.0]",
+                "(210.0, 350.0]"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "revenue",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#FFFFE0"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "inverse": false,
+            "position": "left",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 250000000.0,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "type": "value",
+            "name": "vote_average",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid",
+                    "color": "#FFFFE0"
+                }
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0,
+            "max": 10,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e0d\u540c\u65f6\u957f\u7535\u5f71\u7684\u5e73\u5747\u6536\u5165\u3001\u8bc4\u5206",
+            "left": "center",
+            "top": "2%"
+        }
+    ]
+};
+        chart_dd3d9f1e74ef48f686197cee3d18bcc6.setOption(option_dd3d9f1e74ef48f686197cee3d18bcc6);
+    </script>
+</body>
+</html>

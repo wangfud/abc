@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>原创和改编对比</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="fb02700768b04c6f970ef7e08ed669d1" class="chart-container" style="width:800px; height:500px;"></div>
+    <script>
+        var chart_fb02700768b04c6f970ef7e08ed669d1 = echarts.init(
+            document.getElementById('fb02700768b04c6f970ef7e08ed669d1'), 'dark', {renderer: 'canvas'});
+        var option_fb02700768b04c6f970ef7e08ed669d1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "budget",
+            "data": [
+                54682343.17225951,
+                26414214.67470156
+            ],
+            "barCategoryGap": "20%",
+            "barGap": "0%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "profit",
+            "data": [
+                116498735.77404922,
+                46721668.051423326
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "revenue",
+            "data": [
+                171181078.94630873,
+                73135882.72612488
+            ],
+            "barCategoryGap": "40%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "budget",
+                "profit",
+                "revenue"
+            ],
+            "selected": {
+                "budget": true,
+                "profit": true,
+                "revenue": true
+            },
+            "show": true,
+            "left": "center",
+            "top": "7%"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "not_original",
+                "original"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u539f\u521b\u7535\u5f71\u548c\u6539\u7f16\u7535\u5f71\u6536\u5165\u3001\u5229\u6da6\u3001\u9884\u7b97\u7684\u5bf9\u6bd4",
+            "left": "center",
+            "top": "2%"
+        }
+    ]
+};
+        chart_fb02700768b04c6f970ef7e08ed669d1.setOption(option_fb02700768b04c6f970ef7e08ed669d1);
+    </script>
+</body>
+</html>

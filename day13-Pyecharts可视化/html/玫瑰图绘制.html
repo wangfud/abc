@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我是一个饼图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="37a9c3a8f5324b88b13df343241abed3" class="chart-container" style="width:900px; height:600px;"></div>
+    <script>
+        var chart_37a9c3a8f5324b88b13df343241abed3 = echarts.init(
+            document.getElementById('37a9c3a8f5324b88b13df343241abed3'), 'dark', {renderer: 'canvas'});
+        var option_37a9c3a8f5324b88b13df343241abed3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": [
+                "\u5317\u4eac",
+                "\u6cb3\u5357",
+                "\u5e7f\u5dde",
+                "\u6b66\u6c49",
+                "\u6210\u90fd",
+                "\u676d\u5dde"
+            ],
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 130
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": 65
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": 60
+                },
+                {
+                    "name": "\u6b66\u6c49",
+                    "value": 23
+                },
+                {
+                    "name": "\u6210\u90fd",
+                    "value": 30
+                },
+                {
+                    "name": "\u676d\u5dde",
+                    "value": 33
+                }
+            ],
+            "radius": [
+                "30%",
+                "70%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "formatter": "{b}:{d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5317\u4eac",
+                "\u6cb3\u5357",
+                "\u5e7f\u5dde",
+                "\u6b66\u6c49",
+                "\u6210\u90fd",
+                "\u676d\u5dde"
+            ],
+            "selected": {},
+            "type": "plain",
+            "show": true,
+            "left": "center",
+            "top": "top"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Python\u5206\u6821\u4eba\u6570\u5360\u6bd4\u997c\u56fe",
+            "subtext": "\u5e7f\u5ddePython0624\u73ed\u7ea7\u5168\u4f53",
+            "left": "left"
+        }
+    ]
+};
+        chart_37a9c3a8f5324b88b13df343241abed3.setOption(option_37a9c3a8f5324b88b13df343241abed3);
+    </script>
+</body>
+</html>

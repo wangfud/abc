@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>柱状图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7c4f9d48c1ef4232a6067065ba1ad3c5" class="chart-container" style="width:800px; height:500px;"></div>
+    <script>
+        var chart_7c4f9d48c1ef4232a6067065ba1ad3c5 = echarts.init(
+            document.getElementById('7c4f9d48c1ef4232a6067065ba1ad3c5'), 'dark', {renderer: 'canvas'});
+        var option_7c4f9d48c1ef4232a6067065ba1ad3c5 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "data": [
+                8,
+                34,
+                82,
+                110,
+                144,
+                185,
+                197,
+                234,
+                348,
+                424,
+                513,
+                519,
+                535,
+                696,
+                790,
+                894,
+                1154,
+                1274,
+                1722,
+                2297
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "TV Movie",
+                "Foreign",
+                "Western",
+                "Documentary",
+                "War",
+                "Music",
+                "History",
+                "Animation",
+                "Mystery",
+                "Fantasy",
+                "Family",
+                "Horror",
+                "Science Fiction",
+                "Crime",
+                "Adventure",
+                "Romance",
+                "Action",
+                "Thriller",
+                "Comedy",
+                "Drama"
+            ]
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e0d\u540c\u7c7b\u578b\u7535\u5f71\u5bf9\u6bd4\u67f1\u72b6\u56fe",
+            "left": "center",
+            "top": "5%"
+        }
+    ]
+};
+        chart_7c4f9d48c1ef4232a6067065ba1ad3c5.setOption(option_7c4f9d48c1ef4232a6067065ba1ad3c5);
+    </script>
+</body>
+</html>
